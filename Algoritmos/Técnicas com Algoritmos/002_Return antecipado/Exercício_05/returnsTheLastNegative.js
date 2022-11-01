@@ -14,7 +14,7 @@ function ultimoNegativo(lst) {
 
 /* Outra solução */
 function ultimoNegativo(lst) {
-    for(let i = lst.length; i >= 0; i--) {
+    for(let i = lst.length - 1; i >= 0; i--) {
         if(lst[i] < 0 ) return lst[i]
     }
 
