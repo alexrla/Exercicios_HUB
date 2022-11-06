@@ -3,6 +3,7 @@ function organizar(items) {
 
     while(items.length > 0)   {
         const subArray = [];
+        
         let count = 0;
 
         while(count < 3 && items.length !== 0)   {
